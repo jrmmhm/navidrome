@@ -83,7 +83,8 @@
         "mood": "Sfeer",
         "date": "Opnamedatum",
         "missing": "Ontbrekend",
-        "libraryName": "Bibliotheek"
+        "libraryName": "Bibliotheek",
+        "played": ""
       },
       "actions": {
         "playAll": "Afspelen",
@@ -190,7 +191,30 @@
         "userName": "Gebruikersnaam",
         "lastSeen": "Laatst gezien op",
         "reportRealPath": "Toon het echte bestandspad",
-        "scrobbleEnabled": "Scrobbles naar externe dienst sturen"
+        "scrobbleEnabled": "Scrobbles naar externe dienst sturen",
+        "hasApiKey": ""
+      },
+      "menuName": "",
+      "actions": {
+        "generateApiKey": "",
+        "regenerateApiKey": "",
+        "revokeApiKey": "",
+        "copyApiKey": ""
+      },
+      "message": {
+        "apiKeyActive": "",
+        "apiKeyNone": "",
+        "apiKeyNoneOther": "",
+        "apiKeyPending": "",
+        "apiKeyRevokePending": "",
+        "deleteWithKeyTitle": "",
+        "deleteWithKeyContent": ""
+      },
+      "notifications": {
+        "apiKeyCopied": ""
+      },
+      "validation": {
+        "apiKeyFormat": ""
       }
     },
     "transcoding": {
@@ -610,9 +634,9 @@
     "coverUploadError": "Fout bij het toevoegen albumhoes",
     "coverRemoveError": "Fout bij verwijderen albumhoes",
     "metadataRefreshStarted": "Metadata verversen op de achtergrond",
-    "quickConnectApproved": "",
-    "quickConnectInvalidCode": "",
-    "quickConnectError": ""
+    "quickConnectApproved": "%{app} op %{device} is nu ingelogd",
+    "quickConnectInvalidCode": "Ongeldige of verlopen code",
+    "quickConnectError": "Kon de code niet goedkeuren"
   },
   "menu": {
     "library": "Bibliotheek",
@@ -650,12 +674,12 @@
     },
     "onlyFavourites": "Toon alleen favorieten",
     "quickConnect": {
-      "name": "",
-      "code": "",
-      "help": "",
-      "confirm": "",
-      "continue": "",
-      "approve": ""
+      "name": "Snel verbinden",
+      "code": "Code",
+      "help": "Voer de code in van een Jellyfin app om het in te loggen op je account",
+      "confirm": "Log %{app} %{version} op %{device} in op je account?",
+      "continue": "Doorgaan",
+      "approve": "Goedkeuren"
     }
   },
   "player": {
